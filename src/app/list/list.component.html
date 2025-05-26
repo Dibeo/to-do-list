@@ -1,5 +1,8 @@
 <main>
-  <div class="d-flex flex-column justify-content-center align-items-center" style="height: 80px">
+  <div
+    class="d-flex flex-column justify-content-center align-items-center"
+    style="height: 80px"
+  >
     <div
       class="col-12 col-md-6 bg-success d-flex justify-content-center align-items-center text-light h3 p-2"
     >
@@ -20,7 +23,12 @@
   </div>
 
   <div *ngFor="let task of items; let i = index" class="">
-    <app-task-item [task]="task" [index]="i" (delete)="deleteTask($event)" class="d-flex flex-column justify-content-center align-items-center">
+    <app-task-item
+      [task]="task"
+      [index]="i"
+      (delete)="deleteTask($event)"
+      class="d-flex flex-column justify-content-center align-items-center"
+    >
     </app-task-item>
   </div>
 </main>
