@@ -1,6 +1,12 @@
 # ToDoList
+[![wakatime](https://wakatime.com/badge/user/018c21c3-001e-4fd3-93ef-f7f9ec6d1fdb/project/658ad89b-4459-4492-80eb-dda4ccac0a19.svg)](https://wakatime.com/badge/user/018c21c3-001e-4fd3-93ef-f7f9ec6d1fdb/project/658ad89b-4459-4492-80eb-dda4ccac0a19)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+**Personal project, objectives :**
+- learn Angular
+
+
+**To-Do pages** : to add things to do and delete them when done.
+
 
 ## Development server
 
