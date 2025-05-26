@@ -1,9 +1,9 @@
-<div class="d-flex flex-column min-vh-100 position-relative w-100">
-  <app-top-bar />
+<div class="d-flex flex-column min-vh-100">
+  <app-top-bar></app-top-bar>
 
-  <app-list />
+  <main class="flex-grow-1">
+    <router-outlet></router-outlet>
+  </main>
 
-  <app-footer />
+  <app-footer></app-footer>
 </div>
-
-<router-outlet />
